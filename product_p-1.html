@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE edge">
+	<title>Products Page</title>
+	<meta name-"viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="products_individual.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> <!----Regular-Font-Link--->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet"><!---Special-Font-Link-------->
+	<script src="https://kit.fontawesome.com/ca5cb41637.js" crossorigin="anonymous"></script><!--Font-Awesome-Icon-Link--->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+	integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" /> <!--Font-Awesome-Library Kit------>
+</head>
+<body>
+	<section class="header">
+	<!--Navbar header --------Navbar header ------------Navbar header--------Navbar header--------Navbar header----->
+		<nav>
+			<a href="ace.html"><img src="img/logo.png"></a>
+			<div class="navlink">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about_us.html">ABOUT US</a></li>	
+					<li><a href="products.html">PRODUCTS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="sources.html">SOURCES</a></li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+	<!----------Body-Starts--------->
+	<section class="main-body">
+		<div class="card-wrapper">
+			<div class="card">
+			<!---Left-Side---->
+			<div class="product-content">
+					<h2 class="product-title">ASUS TUF A15 (Ryzen 4600H +GTX 1650 Ti)</h2>
+					<div class="product-rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<span>4.5 out of 5</span>
+						<span>(10 global ratings)</span>
+					</div>
+				<div class="product-price">
+					<p class="new-price">New Price: <span>$999.99</span></p>
+				</div>
+				<div class="product-detail">
+					<h2>Product Detail:-</h2>
+					<p>"Geared for serious gaming and real-world durability, the TUF Gaming A15 is a fully-loaded Windows 
+				10 Pro gaming laptop that can carry you to victory. Powered by the latest AMD Ryzen™ 9 CPU and GeForce RTX™ 2060 GPU, 
+				action-packed gameplay is fast, fluid, and fully saturates speedy IPS-level displays up to 144Hz. Even while boasting a smaller 
+				and more portable chassis than its predecessors, this gaming laptop also features a larger 90Wh battery for superior battery life.
+				Efficient self-cleaning cooling combines with TUF's signature military-grade durability to make this battle-tested road warrior a reliable 
+				ally for gamers on the go" - by Asus.</p>
+				<ul>
+					<li>Color : <span>Eclipse Gray</span></li>
+					<li>Brand : <span>Asus</span></li>
+					<li>Availability : <span>in stock</span></li>
+					<li>Operating System : <span>Windows 11 Home</span></li>
+				</ul>
+				</div>
+				<div class="purchase-info" style='padding-bottom:200px;'>
+					<button type="button" class="btn"><a href="https://www.amazon.ca/IPS-Type-RyzenTM-GeForce-Windows-FA506IHR-DS51-CA/dp/B09V47SLT9/ref=asc_df_B09V47SLT9/?tag=googleshopc0c-20&linkCode=df0&hvadid=578834338212&hvpos=&hvnetw=g&hvrand=5403180665964939403&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001253&hvtargid=pla-1654441131053&psc=1" style='text-decoration:none;color:white;'>Buy Now</a></button>
+				</div>
+			</div>
+		<!-------------Right-Side-------------------Right-Side---------Right-Side---------Right-Side---------Right-Side---------Right-Side------>
+				<div class="product-image" style='padding-top:170px;'>
+					<div class="img-display">
+						<div class="img-showcase">
+							<img src="img/p-1-1.jpg" alt="laptop-image">
+							<img src="img/p-1-2.jpg" alt="laptop-image">
+							<img src="img/p-1-3.jpg" alt="laptop-image">
+							<img src="img/p-1-4.jpg" alt="laptop-image" onclick="playVideo('img/pv1.mp4')">
+						</div>
+					</div>
+				<div class="img-select">
+					<div class="img-item">
+						<a href = "#" data-id="1">
+							<img src="img/p-1-1.jpg">
+						</a>
+					</div>
+					<div class="img-item">
+						<a href = "#" data-id="2">
+							<img src="img/p-1-2.jpg">
+						</a>
+					</div>
+					<div class="img-item">
+						<a href = "#" data-id="3">
+							<img src="img/p-1-3.jpg">
+						</a>
+					</div>
+					<div class="img-item">
+						<a href = "#" data-id="4">
+							<img src="img/p-1-4.jpg" style='width:120px; height:100px;'>
+						</a>
+					</div>
+				</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="video-player" id="videoPlayer">
+			<video width="100%" controls autoplay id="myVideo">
+				<source src="img/pv1.mp4" type="video/mp4">
+			</video>
+			<img src="img/close.png" class="c-btn" onclick="stopVideo()">
+		</div>
+	</section>
+	<!---------Finally-Footer-----------------Finally-Footer---------Finally-Footer---------Finally-Footer---------Finally-Footer--->
+	<section class="footer">
+		<div class="again">
+			<h1>"&nbsp;Follow Me Here&nbsp;"</h1>
+			<p>Hi Fam, This is Ace, hope you liked the new gaming product reccomendations, and if you want more gaming tips or you like watching gaming 
+			streams<br> or if you want to see the new product review videos of Latest Gaming Products, then you can just follow me on the social media links 
+			below.<br>Thanks for being here as<br>"We value your time because<br> You just paused a game to be here."</p>
+		 <div class="icons">
+				<a href="https://www.youtube.com/channel/UCQWW6p8NMUJzZaLRjcP_UJQ"><i class="fa-brands fa-youtube"></i></a>
+				<i class="fa-brands fa-square-instagram"></i>
+				<i class="fa-brands fa-facebook"></i>
+				<i class="fa-brands fa-square-twitter"></i>
+		 </div>
+		</div>
+	</section>
+	<script src="products.js"></script>
+	<script>
+		var videoPlayer = document.getElementById("videoPlayer");
+		var myVideo = document.getElementById("myVideo");
+		
+		function stopVideo(){
+			videoPlayer.style.display = "none"
+		}
+		
+		function playVideo(file){
+			myVideo.src = file;
+			videoPlayer.style.display = "block";
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	color:white;		
+}
+
+/*About Us header settings down below */
+.AU-header{
+	min-height:100vh;
+	width:90%;
+	background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4));
+	position:relative;
+	padding:0 5%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+ nav{
+	 width:90%;
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 padding:20px 5%;
+	 display:flex;
+	 align-items:center;
+	 justify-content:space-between;
+ }
+ 
+ nav img {
+	 width:350px;
+ }
+ 
+ .navlink{
+	 flex:1;
+	 text-align:right;
+ }
+ 
+ .navlink ul li{
+	 list-style:none;
+	 display:inline-block;
+	 padding: 8px 12px;
+	 position:relative;
+ }
+ 
+ .navlink ul li a{
+	 color:white;
+	 text-decoration:none;
+	 font-size:18px;
+ }
+ 
+ .navlink ul li::after{
+	 content:'';
+	 width:0%;
+	 height:1.5px;
+	 background:#fff;
+	 display:block;
+	 margin:auto;
+	 transition:0.5s;
+ }
+ 
+ .navlink ul li:hover:after{
+	 width:100%;
+ }
+ 
+ .matrix{
+	 position:absolute;
+	 right:0;
+	 bottom:0;
+	 z-index:-1;
+ }
+ 
+ .t-box{
+	 width:90%;
+	 color:white;
+	 position:absolute;
+	 top:55%;
+	 left:50%;
+	 transform: translate(-50%,-50%); 	/*This is to keeep the text in the center of the div*/
+	 text-align:center;
+ }
+ 
+ .t-box h1{
+	 font-size:45px;
+ }
+ 
+ .t-box p{
+	 margin:10px 0 40px;	/*This is written as top,left-right, bottom*/
+	 font-size:25px;
+ }
+ 
+.btn{
+	display:inline-block;
+	text-decoration:none;
+	color:white;
+	border: 1px solid white;
+	padding:12px 34px;
+	font-size:15px;
+	background:transparent;
+	position:relative;
+	cursor:pointer;
+	transition:1s;
+}
+
+.btn:hover{
+	border: 1px solid white;
+	background:white;
+	color:black;
+	font-size:25px;
+	transition:1s;
+}
+/*------------------Header Ends--Middle-Section-Starts-Below*/
+
+.main{
+	width:100%;
+	background-image: url(img/au.jpg);
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	text-align:center;
+}
+
+.row-1{
+	width:85%;
+	margin:auto;
+	text-align:center;
+	padding-top:80px;
+}
+
+.col{
+	display:flex;
+	justify-content:space-between;
+}
+
+.para-1{
+	padding:20px;
+	float:left;
+	position:relative;
+}
+
+.para-1 h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size:50px;
+	font-weight:600;
+	letter-spacing:3px;
+	padding-top:100px;
+}
+
+.para-1 p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+	font-weight:300;
+	line-height:30px;
+	padding:10px;
+}
+
+.logo{
+	width:30%;
+	padding-left:8%;
+	padding-right:0;
+}
+
+.para-2{
+	padding:20px;
+	float:left;
+	position:relative;
+}
+
+.para-2 h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size:50px;
+	font-weight:600;
+	letter-spacing:3px;
+	padding-top:100px;
+	padding-right:20%;
+}
+
+.para-2 p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+	font-weight:300;
+	line-height:30px;
+	padding-right:20%;
+}
+
+.btn-2{
+	text-decoration:none;
+	display:inline-block;
+	color:#fff;
+	font-size:14px;
+	border: 2px solid white;
+	padding:14px 7px;
+	border-radius:50px;
+	margin-top:20px;
+	cursor:pointer;
+	transition:0.7s;
+}
+
+.btn-2:hover{
+	border: 1px solid white;
+	background:white;
+	color:black;
+	font-size:20px;
+	transition:0.7s;
+}
+/*---Footer--------------------------Footer--------------------------Footer--------------------------------*/
+.footer{
+	width:100%;
+	background-image:url(img/au.jpg);
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	text-align:center;
+}
+
+.again{
+	width:100%;
+	padding-top:70px;
+	justify-content:space-between;
+}
+
+.line{
+	width:80%;
+	border-top: 2px solid white;
+	padding-right:20%;
+}
+
+.again p{
+	margin-top:10px;
+	font-weight:300;
+	line-height: 1.5em;	
+}
+
+.icons{
+	justify-content:center;
+	width:80%;
+	margin-top:30px;
+	margin-left:10%;
+	border-radius:50%;
+}
+
+.fa-brands{
+	margin-top:20px;
+	cursor:pointer;
+	color:#FFBF00;
+	font-size:30px;
+	padding-top:0;
+	padding-right:45px;
+	padding-bottom:20px;
+	justify-content:space-between;
+	transition:1s;
+}
+
+.fa-brands:hover{
+	background:transparent;
+	color:white;
+	font-size:25px;
+	transition:1s;
+}

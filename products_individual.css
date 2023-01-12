@@ -1,0 +1,370 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ .header{
+	max-height:20vh;
+	width:100 %;
+	background-image: linear-gradient(rgba(4,9,30,0.66),rgba(4,9,30,0.7)),url(img/pw.jpg);
+	background-position:center;
+	background-size: cover;
+	color:white;
+	position:relative;
+}
+
+ nav{
+	 display:flex;
+	 padding:0% 5%;
+	 justify-content: space-between;
+	 align-items:center;
+ }
+ 
+ nav img {
+	 padding-top:none;
+	 width:350px;
+ }
+ 
+ .navlink{
+	 flex:1;
+	 text-align:right;
+ }
+ 
+ .navlink ul li{
+	 list-style:none;
+	 display:inline-block;
+	 padding: 12px;
+	 position:relative;
+ }
+ 
+ .navlink ul li a{
+	 color:white;
+	 text-decoration:none;
+	 font-size:15px;
+ }
+ 
+ .navlink ul li::after{
+	 content:'';
+	 width:0%;
+	 height:1.5px;
+	 background:#fff;
+	 display:block;
+	 margin:auto;
+	 transition:0.5s;
+ }
+ 
+ .navlink ul li:hover:after{
+	 width:100%;
+ }
+
+.t-box{
+	 width:90%;
+	 color:white;
+	 position:absolute;
+	 top:55%;
+	 left:50%;
+	 transform: translate(-50%,-50%); 	/*This is to keeep the text in the center of the div*/
+	 text-align:center;
+ }
+ 
+ .t-box h1{
+	 font-size:45px;
+ }
+ 
+ .t-box p{
+	 margin:10px 0 40px;	/*This is written as top,left-right, bottom*/
+	 font-size:25px;
+ }
+ 
+.btn{
+	display:inline-block;
+	text-decoration:none;
+	color:white;
+	border: 1px solid white;
+	padding:12px 34px;
+	font-size:15px;
+	background:transparent;
+	position:relative;
+	cursor:pointer;
+	transition:1s;
+}
+
+.btn:hover{
+	border: 1px solid white;
+	background:white;
+	color:black;
+	font-size:25px;
+	transition:1s;
+}
+
+.row{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+.col{
+	flex-basis:50%;
+	min-width:300px;
+	
+}
+
+/*-------Main Part-------------------------------------*/
+
+.main-body{
+	margin-top:50px;
+	line-height:1.5;
+}
+
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.img-display{
+    overflow: hidden;
+}
+
+.img-showcase{
+    display:flex;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.img-showcase img{
+    min-width: 100%;
+}
+.img-select{
+    display: flex;
+}
+.img-item{
+    margin: 0.3rem;
+}
+
+.player{
+	aspect-ratio:16/9;
+	width:160px;
+	display:block;
+}
+.video-player{
+	width:80%;
+	position:absolute;
+	left:50%;
+	top:70%;
+	transform:translate(-50%,-50%);
+	display:none;
+}
+.video:focus{
+	outline:none;	
+}
+.c-btn{
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:50px;
+	cursor:pointer;
+}
+/*---------------------------------------------STop*/
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3),
+.img-item:nth-child(4){
+    margin-right: 0;
+}
+.img-item:hover{
+    opacity: 0.8;
+}
+.product-content{
+    margin-top:0px;
+}
+.product-title{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: #12263a;
+    margin: 1rem 0;
+}
+
+.special img{
+	max-width:90px;
+}
+
+.product-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    background: #256eff;
+    color: #fff;
+    padding: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+.product-link:hover{
+    opacity: 0.9;
+}
+.product-rating{
+    color: #ffc107;
+}
+.product-rating span{
+    font-weight: 600;
+    color: #252525;
+}
+.product-price{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.product-price span{
+    font-weight: 400;
+}
+.last-price span{
+    color: #f64749;
+    text-decoration: line-through;
+}
+.new-price span{
+    color: #256eff;
+}
+.product-detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.6rem;
+}
+.product-detail p{
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+}
+.product-detail ul{
+    margin: 0;
+    font-size: 0.9rem;
+}
+.product-detail ul li{
+    margin: 0;
+    list-style: none;
+    background: url(shoes_images/checked.png) left center no-repeat;
+    background-size: 18px;
+    padding-left:0;
+    margin: 0.4rem 0;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.product-detail ul li span{
+    font-weight: 400;
+}
+.purchase-info{
+    margin: 1.5rem 0;
+}
+.purchase-info .btn{
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+.purchase-info input{
+    width: 60px;
+}
+.purchase-info .btn{
+    cursor: pointer;
+    color: #fff;
+}
+.purchase-info .btn:first-of-type{
+    background: #256eff;
+}
+.purchase-info .btn:last-of-type{
+    background: #f64749;
+}
+.purchase-info .btn:hover{
+    opacity: 0.9;
+}
+@media screen and (min-width: 992px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+    }
+    .card-wrapper{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product-content{
+        padding-top: 30%;
+    }
+}
+
+/*---Finally_Footer-----------Finally_Footer-------Finally_Footer-------Finally_Footer-------Finally_Footer-------Finally_Footer-------*/
+
+.footer{
+	width:100%;
+	background-image: linear-gradient(rgba(4,9,30,0.85),rgba(4,9,30,0.7)),url(https://www.itl.cat/pngfile/big/26-269621_dark-space-wallpapers-12137-high-resolution-dark-space.jpg);
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	text-align:center;
+	padding-bottom:100px;
+	color:white;
+}
+
+.again{
+	width:100%;
+	padding-top:70px;
+	justify-content:space-between;
+}
+
+.again h1{
+	font-size:30px;
+}
+
+.again p{
+	margin-top:10px;
+	font-weight:300;
+	line-height: 1.5em;	
+}
+
+.icons{
+	justify-content:center;
+	width:80%;
+	min-height:40px;
+	margin-top:60px;
+	margin-left:10%;
+	border-top: 2px solid white;
+	boreder-radius:50%;
+}
+
+.fa-brands{
+	margin-top:20px;
+	cursor:pointer;
+	color:#FFBF00;
+	font-size:30px;
+	padding-top:0;
+	padding-right:45px;
+	padding-bottom:20px;
+	justify-content:space-between;
+	transition:1s;
+}
+
+.fa-brands:hover{
+	background:transparent;
+	color:white;
+	font-size:25px;
+	transition:1s;
+}

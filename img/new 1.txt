@@ -1,0 +1,26 @@
+<h1>ASUS TUF A15 (Ryzen 4600H +GTX 1650 Ti)</h1>
+				<h4>$989.00</h4>
+				<h3 style='margin-top:20px;'>Products Details <i class="fa fa-indent"></i></h3>
+				<br>
+				<p>"Geared for serious gaming and real-world durability, the TUF Gaming A15 is a fully-loaded Windows 
+				10 Pro gaming laptop that can carry you to victory. Powered by the latest AMD Ryzen™ 9 CPU and GeForce RTX™ 2060 GPU, 
+				action-packed gameplay is fast, fluid, and fully saturates speedy IPS-level displays up to 144Hz. Even while boasting a smaller 
+				and more portable chassis than its predecessors, this gaming laptop also features a larger 90Wh battery for superior battery life.
+				Efficient self-cleaning cooling combines with TUF's signature military-grade durability to make this battle-tested road warrior a reliable 
+				ally for gamers on the go" - says Asus.</p>
+				
+				
+				
+				
+				
+				p-i:- amazon link
+				https://www.amazon.ca/IPS-Type-RyzenTM-GeForce-Windows-FA506IHR-DS51-CA/dp/B09V47SLT9/ref=asc_df_B09V47SLT9/?tag=googleshopc0c-20&linkCode=df0&hvadid=578834338212&hvpos=&hvnetw=g&hvrand=5403180665964939403&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001253&hvtargid=pla-1654441131053&psc=1
+				
+				
+				#old price 
+				<p class="last-price"Old Price:<span>$$$$</span>></p>
+				css- .last-price span{color:#f64749;text-decoration:line-through;}
+				
+				
+				
+#   (Stop=9:25)
